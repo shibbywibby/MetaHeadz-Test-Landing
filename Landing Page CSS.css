@@ -1,0 +1,59 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Permanent Marker', sans-serif;
+  background: url("NeoPunkCity BG.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #0f0;
+  opacity: 1;
+  animation: glow 1s ease-in-out infinite alternate;
+  /*background-color: rgba(190, 127, 173, 0.3);
+  border-radius: 300px;*/
+}
+
+hr {
+    margin: 20px auto;
+    color: #ff1493;
+    border: 3px solid #ff1493;
+    max-width: 65px;
+    opacity: 1; 
+    border-radius: 300px; 
+}
+
+.buffer {
+  height: 8.5rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #ff1493;
+  border-color: #ff1493;
+  box-shadow: 0px -1px 20px #ff1493;
+}
+
+.btn-primary:hover {
+  background-color: #C4267F;
+  border-color: #C4267F;
+  border-width: 2px;
+}
+
+.hero-heading {
+    text-shadow: 0px -1px 25px #0f0;
+}
